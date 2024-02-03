@@ -1,0 +1,29 @@
+#nav-box {
+    width: 100vw;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#logo {
+    text-align: center;
+    font-weight: 800; 
+    font-size: 48px;
+    cursor: default;
+}
+#nav-bar ul{
+    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 18px
+}
+#nav-bar ul li a {
+    background-color: rgb(241, 241, 241);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+#botao-tema {
+    display: none;
+}

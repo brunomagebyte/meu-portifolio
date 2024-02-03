@@ -1,0 +1,54 @@
+
+#nav-box {
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+}
+#logo {
+    width: 25rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 800; 
+    font-size: 48px;
+    cursor: default;
+}
+#nav-bar {
+    width: 28rem;
+    height: 3rem;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    text-align: center;
+}
+#nav-bar ul{
+    display: flex;
+    font-weight: 600;
+    font-size: 20px
+}
+
+#nav-bar ul li a {
+    margin: 1rem;
+}
+
+#nav-bar ul li a:hover {
+    color: rgb(0, 162, 255);
+}
+
+#botao-tema {
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#botao-tema:hover {
+    color:rgb(0, 162, 255) ;
+
+}
