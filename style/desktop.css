@@ -5,8 +5,8 @@ body {
     font-family: 'Ubuntu', Arial, sans-serif;
 }
 #body {
-    background-color: rgb(255, 255, 255);
-    color: rgba(7, 7, 7, 0.925);
+    background-color: rgba(255, 255, 255, 0.979);
+    color: rgba(12, 12, 12, 0.925);
 }
 
 a {
@@ -50,6 +50,6 @@ header {
 }
 
 #nav-bar ul li a:hover {
-    color: rgb(255, 94, 0);
+    color: rgb(255, 102, 0);
     transition: 300ms ease; 
 }
